@@ -1,6 +1,6 @@
 # Fine-Tuning DistilBERT for Political Party Classification
 
-This repository contains a Python notebook that fine-tunes a [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased) model to classify political text segments into **Democrat** or **Republican**. For an in-depth explanation of the project’s motivation and methodology, please refer to the accompanying [overview.pdf](overview.pdf).
+This repository contains a Python notebook that fine-tunes a [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased) model to classify political text segments into **Democrat** or **Republican**. For an in-depth explanation of the project’s motivation and methodology, please refer to the accompanying [overview.pdf](Political_Sentiment_Overview.pdf).
 
 ---
 
@@ -23,7 +23,7 @@ The purpose of this project is to determine whether a given text segment aligns 
 - **Explore** the challenges of political sentiment detection, including detecting subtle language cues and potential model bias.
 - **Provide** a foundation for further research in detecting political leanings or bias in modern discourse.
 
-For additional details, including the historical context of the dataset and deeper discussion of the approach, see [overview.pdf](overview.pdf).
+For additional details, including the historical context of the dataset and deeper discussion of the approach, see [overview.pdf](Political_Sentiment_Overview.pdf).
 
 ---
 
@@ -77,7 +77,7 @@ This project illustrates both the promise and limitations of using a fine-tuned 
 - **Bias & Fairness**: Political text often contains subtle framing. Additional steps, such as fairness metrics or multi-genre training, could mitigate potential biases.  
 - **Retrieval-Based Systems**: Instead of strictly classifying party alignment, a retrieval-based approach could provide context (e.g., related documents or quotes) to enhance user understanding and reduce misclassification impact.
 
-For a more thorough discussion of these points and the underlying motivations, be sure to consult the [overview.pdf](overview.pdf) located in this repository.
+For a more thorough discussion of these points and the underlying motivations, be sure to consult the [overview.pdf](Political_Sentiment_Overview.pdf) located in this repository.
 
 ---
 
